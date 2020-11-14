@@ -1,0 +1,110 @@
+/*PROPIEDADES COMUNES*/
+header, main, section, article, footer, aside { display: block; }
+body { margin: 0 !important; }
+a { text-decoration: none; }
+
+h1, h2 { font-family: 'pacifico', cursive}
+h3, h4, h5, h6, p, a, form, input, textarea, select, option { font-family: 'Arimo', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+
+
+/*HEADER*/
+
+header { }
+header  { }
+header  { }
+
+
+
+/*MAIN*/
+main { width: 100%; height: 100%; margin: 0 auto; float: none; position: relative; }
+
+/*Página Inicio*/
+section#perfil { width: 100%; height: 100%; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 10; }
+
+section#perfil article#foto-perfil { width: 50%; height: 100%; margin: 0; float: left; position: relative; background: url('eli%20foto.jpeg') no-repeat center center; background-size: cover; }
+
+section#perfil article#foto-perfil figure { width: 100%;  height: 175px; margin: 0; float: none; display: none; position: absolute; bottom: 0; left: 0; z-index: 11; background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 35%, rgba(0,0,0,0.8) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 35%,rgba(0,0,0,0.8) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 35%,rgba(0,0,0,0.8) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); }
+
+section#perfil article#foto-perfil figure h1 { text-align: center; font-weight: 500; color: #fff; font-size: 2.313em; line-height: 1em; letter-spacing: 0.025em; font-style: normal; padding: 50px 0 0 0; }
+
+section#perfil article#foto-perfil figure h3 { color: #fff; font-weight: 100; text-align: center; font-size: 1em; line-height: 1em; padding: 10px 40px 0 40px; letter-spacing: 0.1em; }
+
+
+
+section#perfil article#info-perfil { width: 50%; height: 100%; margin: 0; float: right; position: relative; background: #fff; }
+section#perfil article#info-perfil div#box-info-perfil { width: 450px; height: 400px; margin: 10vh 0 0 60px; float: none; position: relative; }
+section#perfil article#info-perfil div#box-info-perfil h2 { text-align: left; font-weight: 500; color: #009ece; font-size: 2.75em; line-height: 1em; letter-spacing: 0.025em; font-style: normal; padding: 0; }
+
+section#perfil article#info-perfil div#box-info-perfil h3 { font-weight: 500; text-align: left; font-size: 1em; line-height: 1em; padding: 10px 0 25px 0; letter-spacing: 0.1em; color: #222; }
+
+section#perfil article#info-perfil div#box-info-perfil > a { width: 190px; height: auto; display: block; margin: 0 0 20px; float: none; position: relative; background: #009ece; color: #fff; border-radius: 3px; text-align: center; font-size: 1.05em; line-height: 1em; font-weight: 500; padding: 15px 0; transition: all 0.3s ease-in; }
+
+section#perfil article#info-perfil div#box-info-perfil > a:hover { width: 200px; background: #333; color: #f70037; transition: all 0.3s ease-in; }
+
+section#perfil article#info-perfil div#box-info-perfil p { text-align: justify; font-size: 1em; line-height: 1.5em; font-weight: 400; letter-spacing: 0.05em; padding: 0 0 25px; color: #333; }
+
+section#perfil article#info-perfil div#box-info-perfil p strong { font-weight: 600; color: #000; }
+
+section#perfil article#info-perfil div#box-info-perfil div#info-experiencia { width: 100%; height: 50px; display: block; margin: 0 auto 20px; float: none; position: relative; }
+section#perfil article#info-perfil div#box-info-perfil div#info-experiencia div.txt-experiencia { width: 50%; height: 50px; display: block; margin: 0; float: left; position: relative; }
+section#perfil article#info-perfil div#box-info-perfil div#info-experiencia div.txt-experiencia h6 { text-align: left; color: #999; text-transform: uppercase; letter-spacing: 0.3em; font-size: 0.7em; line-height: 1em; font-weight: 500; padding: 0 0 5px; }
+section#perfil article#info-perfil div#box-info-perfil div#info-experiencia div.txt-experiencia h5 { text-align: left; color: #555; letter-spacing: 0.035em; font-size: 1.1em; line-height: 1em; font-weight: 700; }
+
+section#perfil article#info-perfil div#box-info-perfil nav#menu-redes { width: 100%; height: 44px; display: block; margin: 0 auto; float: none; position: relative; }
+section#perfil article#info-perfil div#box-info-perfil nav#menu-redes a { width: 44px; height: 44px; display: block; margin: 0 5px 0 0; float: left; position: relative; text-align: center; background: #009ece; border-radius: 50%; transition: all 0.3s ease-in; }
+section#perfil article#info-perfil div#box-info-perfil nav#menu-redes a i { color: #fff; padding: 13px 0; font-size: 1.1em; transition: all 0.3s ease-in; }
+section#perfil article#info-perfil div#box-info-perfil nav#menu-redes a:hover { background: #333; transition: all 0.3s ease-in; }
+section#perfil article#info-perfil div#box-info-perfil nav#menu-redes a:hover i { color: #009ece; transition: all 0.3s ease-in; }
+
+
+
+
+@media only screen and (max-width: 1199px){
+    main { height: auto; }
+    
+    
+    
+    section#perfil { height: auto; margin: 0 auto; float: none; position: relative; }
+    section#perfil article#foto-perfil { width: 100%; height: 250px; margin: 0 auto; float: none; }
+    section#perfil article#foto-perfil figure { display: block; }
+    
+    
+    
+    section#perfil article#info-perfil { width: 100%; height: auto; margin: 0 auto; float: none; padding: 55px 0 70px 0; background: #09f; }
+    section#perfil article#info-perfil div#box-info-perfil { width: 80%; height: auto; margin: 0 auto; }
+    
+    section#perfil article#info-perfil div#box-info-perfil h2,
+    section#perfil article#info-perfil div#box-info-perfil h3 { display: none; }
+    
+    section#perfil article#info-perfil div#box-info-perfil > a { margin: 0 auto 35px; }
+    section#perfil article#info-perfil div#box-info-perfil p { text-align: center; padding: 0 0 35px; }
+    
+    section#perfil article#info-perfil div#box-info-perfil div#info-experiencia { height: auto; }
+    section#perfil article#info-perfil div#box-info-perfil div#info-experiencia div.txt-experiencia { width: 100%; height: auto; margin: 0 auto 35px; float: none; }
+    section#perfil article#info-perfil div#box-info-perfil div#info-experiencia div.txt-experiencia h6 { text-align: center; }
+    section#perfil article#info-perfil div#box-info-perfil div#info-experiencia div.txt-experiencia h5 { text-align: center; }
+    
+    section#perfil article#info-perfil div#box-info-perfil nav#menu-redes { width: 236px; margin: 0 auto; }
+    section#perfil article#info-perfil div#box-info-perfil nav#menu-redes a { margin: 0 7px; }
+}
+
+@media only screen and (max-width: 1099px){  }
+
+@media only screen and (max-width: 999px){  }
+
+@media only screen and (max-width: 899px){  }
+
+@media only screen and (max-width: 799px){ }
+    
+@media only screen and (max-width: 699px){  }
+    
+@media only screen and (max-width: 599px){  }
+    
+@media only screen and (max-width: 499px){  }
+
+@media only screen and (max-width: 399px){  }
+
+
